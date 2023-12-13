@@ -13,15 +13,14 @@ const fetchUsers = async ()=>{
 
 
  export default async function Page() {
-  const users: string[] = await fetchUsers()
+ // const users: string[] = await fetchUsers()
 
   return <div>
 
   <h1>Hello, Next.js!</h1>
   <section>
-    {users.map((user) => {
-      <p>Name {user.first_name}</p>
-    })}
-  </section>
+    
+      <p>Name </p>
+      </section>
   </div> 
 }
